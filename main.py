@@ -1,4 +1,11 @@
 import tkinter as tk
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+import tkinter as tk
+from src.gamepkg.egobird import EgoBirdGame as start_egobird
+from src.gamepkg.snakegame import start_snake
 from src.gamepkg.egobird import EgoBirdGame as start_egobird
 from src.gamepkg.snakegame import start_snake
 
